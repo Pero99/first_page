@@ -1,0 +1,18 @@
+.top-container, .header {
+    background-color: #1f2937;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+
+    padding: 48px;
+    margin: 0;
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: flex-end;
+}
