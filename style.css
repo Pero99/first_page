@@ -1,18 +1,49 @@
-.top-container, .header {
-    background-color: #1f2937;
-    color: white;
+* {
+    margin: 0px;
     font-family: Roboto, sans-serif;
+
 }
 
-.header {
+.top-container {
+    background-color: #1f2937;
+    color: white;
 
-    padding: 48px;
-    margin: 0;
+}
+
+.menu-header {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+
+}
+
+.logo {
+    margin: 10px;
 
 }
 
 .links {
-
     display: flex;
     justify-content: flex-end;
+    margin-left: 20px;
+
+}
+
+.main-text  {
+    display: flex;
+    align-items: center;
+
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
 }
