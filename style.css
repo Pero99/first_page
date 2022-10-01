@@ -8,6 +8,7 @@
 
 .top {
     background-color: #1f2937;
+    height: 3.5em;
 
 }
 
@@ -15,19 +16,64 @@ li, a {
     color: #fff;
     text-decoration: none;
     list-style: none;
+    padding: 0px 20px;
 
 }
 
 .top, .logo header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    color: white;
 
 }
 
-.nav_links li {
-    display: flex;
-    align-items:
-    padding: 0px 20px;
+.logo {
+    font-weight: 1000;
+    font-size: 2em;
 
+}
+
+.nav_links {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.hero-container {
+    padding-top: 5em;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding-left: 340px;
+    padding-right: 405px;
+    padding-bottom: 100px;
+
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: 1000;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.hero-content p {
+    padding-bottom: 10px;
+
+}
+
+.hero-content-2 img {
+    width:auto;
+    height: 15em;
+    padding-left: 50px;
+
+}
+
+.signup {
+    border-radius: 10px;
+    background: #3882f6;
+    border: #3882f6;
+    color: white;
+    width: 100px;
+    height: 35px;
 }
