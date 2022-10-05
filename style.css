@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: roboto, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
@@ -81,13 +81,13 @@ li, a {
 .random-container {
     display: flex;
     justify-content: space-around;
-    padding: 50px 300px 0px;
+    padding: 50px 200px 0px;
 
 }
 
-.random-container-text {
-    display: flex;
-    padding-top: 20px;
+.random-container p {
+    padding-top: 140px;
+
 }
 
 .random h1 {
@@ -107,8 +107,82 @@ li, a {
 
 }
 
-.one-text, .two-text, .three-text, .four-text {
-    padding-top: 10px;
-    padding-left: 30px;
+.inspiring  {
+    background-color: #d3dde6;
+}
 
+.quote p {
+    margin-top: 180px;
+    padding: 180px;
+    padding-bottom: 10px;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 2.4em;
+    font-style: italic;
+    font-weight: 50;
+    
+}
+
+.quoteby p {
+    padding-left: 1100px;
+    padding-bottom: 80px;
+    font-size: 1.8em;
+    font-weight: 800;
+
+
+}
+
+.blue-div {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.blue-div div {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.blue-div div .signup-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-div div strong {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.blue-div div div {
+    margin: 50px;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 25px;
+
+}
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30 0px;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px;
+
+}
+
+.footer p {
+    font-size: 1.3em;
 }
